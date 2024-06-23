@@ -1,4 +1,5 @@
 //WAP to find sum of n numbers entered by user using dynamic memory allocation.
+
 #include<iostream>
 using namespace std;
 
