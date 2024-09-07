@@ -26,7 +26,7 @@ public:
         cout << "Address : " << address << endl;
         cout << " Roll Number : " << roll << endl;
     }
-    char *getAddress()
+    char* getAddress()
     {
         return address;
     }
