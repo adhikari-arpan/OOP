@@ -19,7 +19,7 @@ public:
     {
         cout << " Count = " << count << endl;
     }
-    Sample operator ++()
+    Sample operator ++(int)
     {
         Sample temp;
         temp.count = count++;
@@ -35,8 +35,8 @@ int main()
     Sample s, s1;
     s.getdata(count);
     s.display();
-    cout << "Using ++ operator" << endl;
     s1 = s++;
     s1.display();
+    s.display();
     return 0;
 }
